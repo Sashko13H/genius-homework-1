@@ -1,0 +1,211 @@
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-weight: 700;
+  src: url("../fonts/play-v19-latin-700.woff2") format("woff2");
+}
+
+:root {
+  --primery-light: #fff;
+  --color-brand-light: #2b7fff;
+  --color-brand-dark: #011c44;
+  --text-dark: #000;
+  --text-light: #747272;
+  --hero-text: #4a4a4a;
+}
+
+/* Base */
+
+body {
+  background: var(--primery-light);
+  color: var(--color-brand-dark);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Button */
+
+.button {
+  color: var(--primery-light);
+  background-color: var(--color-brand-light);
+  border: 2px solid var(--color-brand-light);
+  padding: 16px 32px;
+  border-radius: 32px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.button:hover {
+  color: var(--color-brand-dark);
+  background-color: transparent;
+}
+
+/* Links */
+
+.link {
+  color: var(--color-brand-dark);
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: normal;
+}
+
+.link:hover {
+  color: var(--color-brand-light);
+}
+
+/* Hero-section */
+
+.hero-clinic {
+  color: var(--color-brand-dark);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: normal;
+}
+
+.hero-text {
+  color: var(--hero-text);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/* Titles */
+
+.hero-title {
+  color: var(--color-brand-light);
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-size: 140px;
+  line-height: 0.8;
+}
+
+.section-title {
+  color: var(--color-brand-dark);
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: normal;
+}
+
+.section-title .accent {
+  color: var(--color-brand-light);
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+}
+
+/* Sections */
+
+.about-us-section {
+  color: var(--color-brand-dark);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.7;
+}
+
+.about-us-section .accent {
+  text-transform: capitalize;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.why-us-section {
+  color: var(--text-dark);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.procedures-section {
+  color: var(--primery-light);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.contact-section .section-title {
+  font-size: 22px;
+}
+
+.button2 {
+  color: var(--primery-light);
+  background-color: var(--color-brand-light);
+  border: 2px solid var(--color-brand-light);
+  padding: 16px 32px;
+  border-radius: 32px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.button2:hover {
+  color: var(--color-brand-dark);
+  background-color: transparent;
+}
+
+.contact-section p {
+  color: var(--text-light);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.contact-section a {
+  color: var(--text-light);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--color-brand-dark);
+}
+
+.footer-logo {
+  width: 83px;
+}
+
+.footer .link {
+  color: var(--primery-light);
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: normal;
+}
+
+.footer .contacts {
+  color: var(--primery-light);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: normal;
+}
+
+.footer p {
+  color: var(--text-light);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: normal;
+}
