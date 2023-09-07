@@ -193,6 +193,10 @@ ul {
   line-height: normal;
 }
 
+.footer .link:hover {
+  color: var(--color-brand-light);
+}
+
 .footer .contacts {
   color: var(--primery-light);
   font-family: "Roboto", sans-serif;
@@ -200,6 +204,10 @@ ul {
   font-size: 16px;
   text-decoration: none;
   line-height: normal;
+}
+
+.footer .contacts:hover {
+  color: var(--color-brand-light);
 }
 
 .footer p {
